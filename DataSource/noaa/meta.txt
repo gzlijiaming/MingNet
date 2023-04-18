@@ -1,0 +1,589 @@
+index	inv	GRIB_COMMENT	GRIB_DISCIPLINE	GRIB_ELEMENT
+1	CLWMR:1 hybrid level	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+2	ICMR:1 hybrid level	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+3	RWMR:1 hybrid level	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+4	SNMR:1 hybrid level	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+5	GRLE:1 hybrid level	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+6	REFC:entire atmosphere	Maximum / Composite radar reflectivity [dB]	0(Meteorological)	REFC
+7	VIS:surface	Visibility [m]	0(Meteorological)	VIS
+8	UGRD:planetary boundary layer	u-component of wind [m/s]	0(Meteorological)	UGRD
+9	VGRD:planetary boundary layer	v-component of wind [m/s]	0(Meteorological)	VGRD
+10	VRATE:planetary boundary layer	Ventilation Rate [m^2/s]	0(Meteorological)	VRATE
+11	GUST:surface	Wind speed (gust) [m/s]	0(Meteorological)	GUST
+12	HGT:0.4 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+13	TMP:0.4 mb	Temperature [C]	0(Meteorological)	TMP
+14	ABSV:0.4 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+15	O3MR:0.4 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+16	HGT:1 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+17	TMP:1 mb	Temperature [C]	0(Meteorological)	TMP
+18	RH:1 mb	Relative humidity [%]	0(Meteorological)	RH
+19	UGRD:1 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+20	VGRD:1 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+21	O3MR:1 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+22	HGT:2 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+23	TMP:2 mb	Temperature [C]	0(Meteorological)	TMP
+24	RH:2 mb	Relative humidity [%]	0(Meteorological)	RH
+25	UGRD:2 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+26	VGRD:2 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+27	O3MR:2 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+28	HGT:3 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+29	TMP:3 mb	Temperature [C]	0(Meteorological)	TMP
+30	RH:3 mb	Relative humidity [%]	0(Meteorological)	RH
+31	UGRD:3 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+32	VGRD:3 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+33	O3MR:3 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+34	HGT:5 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+35	TMP:5 mb	Temperature [C]	0(Meteorological)	TMP
+36	RH:5 mb	Relative humidity [%]	0(Meteorological)	RH
+37	UGRD:5 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+38	VGRD:5 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+39	O3MR:5 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+40	HGT:7 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+41	TMP:7 mb	Temperature [C]	0(Meteorological)	TMP
+42	RH:7 mb	Relative humidity [%]	0(Meteorological)	RH
+43	UGRD:7 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+44	VGRD:7 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+45	O3MR:7 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+46	HGT:10 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+47	TMP:10 mb	Temperature [C]	0(Meteorological)	TMP
+48	RH:10 mb	Relative humidity [%]	0(Meteorological)	RH
+49	UGRD:10 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+50	VGRD:10 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+51	ABSV:10 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+52	O3MR:10 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+53	HGT:15 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+54	TMP:15 mb	Temperature [C]	0(Meteorological)	TMP
+55	ABSV:15 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+56	O3MR:15 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+57	HGT:20 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+58	TMP:20 mb	Temperature [C]	0(Meteorological)	TMP
+59	RH:20 mb	Relative humidity [%]	0(Meteorological)	RH
+60	UGRD:20 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+61	VGRD:20 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+62	ABSV:20 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+63	O3MR:20 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+64	HGT:30 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+65	TMP:30 mb	Temperature [C]	0(Meteorological)	TMP
+66	RH:30 mb	Relative humidity [%]	0(Meteorological)	RH
+67	UGRD:30 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+68	VGRD:30 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+69	ABSV:30 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+70	O3MR:30 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+71	HGT:40 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+72	TMP:40 mb	Temperature [C]	0(Meteorological)	TMP
+73	ABSV:40 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+74	O3MR:40 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+75	HGT:50 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+76	TMP:50 mb	Temperature [C]	0(Meteorological)	TMP
+77	RH:50 mb	Relative humidity [%]	0(Meteorological)	RH
+78	TCDC:50 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+79	UGRD:50 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+80	VGRD:50 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+81	ABSV:50 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+82	CLWMR:50 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+83	ICMR:50 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+84	RWMR:50 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+85	SNMR:50 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+86	GRLE:50 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+87	O3MR:50 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+88	HGT:70 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+89	TMP:70 mb	Temperature [C]	0(Meteorological)	TMP
+90	RH:70 mb	Relative humidity [%]	0(Meteorological)	RH
+91	UGRD:70 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+92	VGRD:70 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+93	ABSV:70 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+94	O3MR:70 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+95	HGT:100 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+96	TMP:100 mb	Temperature [C]	0(Meteorological)	TMP
+97	RH:100 mb	Relative humidity [%]	0(Meteorological)	RH
+98	TCDC:100 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+99	VVEL:100 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+100	DZDT:100 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+101	UGRD:100 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+102	VGRD:100 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+103	ABSV:100 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+104	CLWMR:100 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+105	ICMR:100 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+106	RWMR:100 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+107	SNMR:100 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+108	GRLE:100 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+109	ICSEV:100 mb	Icing severity [-]	0(Meteorological)	ICSEV
+110	O3MR:100 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+111	HGT:150 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+112	TMP:150 mb	Temperature [C]	0(Meteorological)	TMP
+113	RH:150 mb	Relative humidity [%]	0(Meteorological)	RH
+114	TCDC:150 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+115	VVEL:150 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+116	DZDT:150 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+117	UGRD:150 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+118	VGRD:150 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+119	ABSV:150 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+120	CLWMR:150 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+121	ICMR:150 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+122	RWMR:150 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+123	SNMR:150 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+124	GRLE:150 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+125	ICSEV:150 mb	Icing severity [-]	0(Meteorological)	ICSEV
+126	O3MR:150 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+127	HGT:200 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+128	TMP:200 mb	Temperature [C]	0(Meteorological)	TMP
+129	RH:200 mb	Relative humidity [%]	0(Meteorological)	RH
+130	TCDC:200 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+131	VVEL:200 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+132	DZDT:200 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+133	UGRD:200 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+134	VGRD:200 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+135	ABSV:200 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+136	CLWMR:200 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+137	ICMR:200 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+138	RWMR:200 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+139	SNMR:200 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+140	GRLE:200 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+141	ICSEV:200 mb	Icing severity [-]	0(Meteorological)	ICSEV
+142	O3MR:200 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+143	HGT:250 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+144	TMP:250 mb	Temperature [C]	0(Meteorological)	TMP
+145	RH:250 mb	Relative humidity [%]	0(Meteorological)	RH
+146	TCDC:250 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+147	VVEL:250 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+148	DZDT:250 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+149	UGRD:250 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+150	VGRD:250 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+151	ABSV:250 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+152	CLWMR:250 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+153	ICMR:250 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+154	RWMR:250 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+155	SNMR:250 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+156	GRLE:250 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+157	ICSEV:250 mb	Icing severity [-]	0(Meteorological)	ICSEV
+158	O3MR:250 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+159	HGT:300 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+160	TMP:300 mb	Temperature [C]	0(Meteorological)	TMP
+161	RH:300 mb	Relative humidity [%]	0(Meteorological)	RH
+162	TCDC:300 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+163	VVEL:300 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+164	DZDT:300 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+165	UGRD:300 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+166	VGRD:300 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+167	ABSV:300 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+168	CLWMR:300 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+169	ICMR:300 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+170	RWMR:300 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+171	SNMR:300 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+172	GRLE:300 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+173	ICSEV:300 mb	Icing severity [-]	0(Meteorological)	ICSEV
+174	O3MR:300 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+175	HGT:350 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+176	TMP:350 mb	Temperature [C]	0(Meteorological)	TMP
+177	RH:350 mb	Relative humidity [%]	0(Meteorological)	RH
+178	TCDC:350 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+179	VVEL:350 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+180	DZDT:350 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+181	UGRD:350 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+182	VGRD:350 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+183	ABSV:350 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+184	CLWMR:350 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+185	ICMR:350 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+186	RWMR:350 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+187	SNMR:350 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+188	GRLE:350 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+189	ICSEV:350 mb	Icing severity [-]	0(Meteorological)	ICSEV
+190	O3MR:350 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+191	HGT:400 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+192	TMP:400 mb	Temperature [C]	0(Meteorological)	TMP
+193	RH:400 mb	Relative humidity [%]	0(Meteorological)	RH
+194	TCDC:400 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+195	VVEL:400 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+196	DZDT:400 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+197	UGRD:400 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+198	VGRD:400 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+199	ABSV:400 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+200	CLWMR:400 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+201	ICMR:400 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+202	RWMR:400 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+203	SNMR:400 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+204	GRLE:400 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+205	ICSEV:400 mb	Icing severity [-]	0(Meteorological)	ICSEV
+206	O3MR:400 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+207	HGT:450 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+208	TMP:450 mb	Temperature [C]	0(Meteorological)	TMP
+209	RH:450 mb	Relative humidity [%]	0(Meteorological)	RH
+210	TCDC:450 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+211	VVEL:450 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+212	DZDT:450 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+213	UGRD:450 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+214	VGRD:450 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+215	ABSV:450 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+216	CLWMR:450 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+217	ICMR:450 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+218	RWMR:450 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+219	SNMR:450 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+220	GRLE:450 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+221	ICSEV:450 mb	Icing severity [-]	0(Meteorological)	ICSEV
+222	HGT:500 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+223	TMP:500 mb	Temperature [C]	0(Meteorological)	TMP
+224	RH:500 mb	Relative humidity [%]	0(Meteorological)	RH
+225	TCDC:500 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+226	VVEL:500 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+227	DZDT:500 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+228	UGRD:500 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+229	VGRD:500 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+230	ABSV:500 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+231	CLWMR:500 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+232	ICMR:500 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+233	RWMR:500 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+234	SNMR:500 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+235	GRLE:500 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+236	ICSEV:500 mb	Icing severity [-]	0(Meteorological)	ICSEV
+237	O3MR:500 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+238	HGT:550 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+239	TMP:550 mb	Temperature [C]	0(Meteorological)	TMP
+240	RH:550 mb	Relative humidity [%]	0(Meteorological)	RH
+241	TCDC:550 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+242	VVEL:550 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+243	DZDT:550 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+244	UGRD:550 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+245	VGRD:550 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+246	ABSV:550 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+247	CLWMR:550 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+248	ICMR:550 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+249	RWMR:550 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+250	SNMR:550 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+251	GRLE:550 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+252	ICSEV:550 mb	Icing severity [-]	0(Meteorological)	ICSEV
+253	HGT:600 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+254	TMP:600 mb	Temperature [C]	0(Meteorological)	TMP
+255	RH:600 mb	Relative humidity [%]	0(Meteorological)	RH
+256	TCDC:600 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+257	VVEL:600 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+258	DZDT:600 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+259	UGRD:600 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+260	VGRD:600 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+261	ABSV:600 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+262	CLWMR:600 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+263	ICMR:600 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+264	RWMR:600 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+265	SNMR:600 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+266	GRLE:600 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+267	ICSEV:600 mb	Icing severity [-]	0(Meteorological)	ICSEV
+268	HGT:650 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+269	TMP:650 mb	Temperature [C]	0(Meteorological)	TMP
+270	RH:650 mb	Relative humidity [%]	0(Meteorological)	RH
+271	TCDC:650 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+272	VVEL:650 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+273	DZDT:650 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+274	UGRD:650 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+275	VGRD:650 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+276	ABSV:650 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+277	CLWMR:650 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+278	ICMR:650 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+279	RWMR:650 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+280	SNMR:650 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+281	GRLE:650 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+282	ICSEV:650 mb	Icing severity [-]	0(Meteorological)	ICSEV
+283	HGT:700 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+284	TMP:700 mb	Temperature [C]	0(Meteorological)	TMP
+285	RH:700 mb	Relative humidity [%]	0(Meteorological)	RH
+286	TCDC:700 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+287	VVEL:700 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+288	DZDT:700 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+289	UGRD:700 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+290	VGRD:700 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+291	ABSV:700 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+292	CLWMR:700 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+293	ICMR:700 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+294	RWMR:700 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+295	SNMR:700 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+296	GRLE:700 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+297	ICSEV:700 mb	Icing severity [-]	0(Meteorological)	ICSEV
+298	O3MR:700 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+299	HGT:750 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+300	TMP:750 mb	Temperature [C]	0(Meteorological)	TMP
+301	RH:750 mb	Relative humidity [%]	0(Meteorological)	RH
+302	TCDC:750 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+303	VVEL:750 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+304	DZDT:750 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+305	UGRD:750 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+306	VGRD:750 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+307	ABSV:750 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+308	CLWMR:750 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+309	ICMR:750 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+310	RWMR:750 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+311	SNMR:750 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+312	GRLE:750 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+313	ICSEV:750 mb	Icing severity [-]	0(Meteorological)	ICSEV
+314	HGT:800 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+315	TMP:800 mb	Temperature [C]	0(Meteorological)	TMP
+316	RH:800 mb	Relative humidity [%]	0(Meteorological)	RH
+317	TCDC:800 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+318	VVEL:800 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+319	DZDT:800 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+320	UGRD:800 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+321	VGRD:800 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+322	ABSV:800 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+323	CLWMR:800 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+324	ICMR:800 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+325	RWMR:800 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+326	SNMR:800 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+327	GRLE:800 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+328	ICSEV:800 mb	Icing severity [-]	0(Meteorological)	ICSEV
+329	HGT:850 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+330	TMP:850 mb	Temperature [C]	0(Meteorological)	TMP
+331	RH:850 mb	Relative humidity [%]	0(Meteorological)	RH
+332	TCDC:850 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+333	VVEL:850 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+334	DZDT:850 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+335	UGRD:850 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+336	VGRD:850 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+337	ABSV:850 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+338	CLWMR:850 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+339	ICMR:850 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+340	RWMR:850 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+341	SNMR:850 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+342	GRLE:850 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+343	ICSEV:850 mb	Icing severity [-]	0(Meteorological)	ICSEV
+344	O3MR:850 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+345	HGT:900 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+346	TMP:900 mb	Temperature [C]	0(Meteorological)	TMP
+347	RH:900 mb	Relative humidity [%]	0(Meteorological)	RH
+348	TCDC:900 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+349	VVEL:900 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+350	DZDT:900 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+351	UGRD:900 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+352	VGRD:900 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+353	ABSV:900 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+354	CLWMR:900 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+355	ICMR:900 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+356	RWMR:900 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+357	SNMR:900 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+358	GRLE:900 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+359	ICSEV:900 mb	Icing severity [-]	0(Meteorological)	ICSEV
+360	HGT:925 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+361	TMP:925 mb	Temperature [C]	0(Meteorological)	TMP
+362	RH:925 mb	Relative humidity [%]	0(Meteorological)	RH
+363	TCDC:925 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+364	VVEL:925 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+365	DZDT:925 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+366	UGRD:925 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+367	VGRD:925 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+368	ABSV:925 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+369	CLWMR:925 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+370	ICMR:925 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+371	RWMR:925 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+372	SNMR:925 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+373	GRLE:925 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+374	HGT:950 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+375	TMP:950 mb	Temperature [C]	0(Meteorological)	TMP
+376	RH:950 mb	Relative humidity [%]	0(Meteorological)	RH
+377	TCDC:950 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+378	VVEL:950 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+379	DZDT:950 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+380	UGRD:950 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+381	VGRD:950 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+382	ABSV:950 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+383	CLWMR:950 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+384	ICMR:950 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+385	RWMR:950 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+386	SNMR:950 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+387	GRLE:950 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+388	ICSEV:950 mb	Icing severity [-]	0(Meteorological)	ICSEV
+389	HINDEX:surface	"(prodType 2, cat 4, subcat 2) [-]"	2(Land_Surface)	unknown
+390	HGT:975 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+391	TMP:975 mb	Temperature [C]	0(Meteorological)	TMP
+392	RH:975 mb	Relative humidity [%]	0(Meteorological)	RH
+393	TCDC:975 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+394	VVEL:975 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+395	DZDT:975 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+396	UGRD:975 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+397	VGRD:975 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+398	ABSV:975 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+399	CLWMR:975 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+400	ICMR:975 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+401	RWMR:975 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+402	SNMR:975 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+403	GRLE:975 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+404	TMP:1000 mb	Temperature [C]	0(Meteorological)	TMP
+405	RH:1000 mb	Relative humidity [%]	0(Meteorological)	RH
+406	TCDC:1000 mb	Total cloud cover [%]	0(Meteorological)	TCDC
+407	VVEL:1000 mb	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+408	DZDT:1000 mb	Verical velocity (geometric) [m/s]	0(Meteorological)	DZDT
+409	UGRD:1000 mb	u-component of wind [m/s]	0(Meteorological)	UGRD
+410	VGRD:1000 mb	v-component of wind [m/s]	0(Meteorological)	VGRD
+411	ABSV:1000 mb	Absolute vorticity [1/s]	0(Meteorological)	ABSV
+412	CLWMR:1000 mb	Cloud mixing ratio [kg/kg]	0(Meteorological)	CLWMR
+413	ICMR:1000 mb	Ice water mixing ratio [kg/kg]	0(Meteorological)	ICMR
+414	RWMR:1000 mb	Rain mixing ratio [kg/kg]	0(Meteorological)	RWMR
+415	SNMR:1000 mb	Snow mixing ratio [kg/kg]	0(Meteorological)	SNMR
+416	GRLE:1000 mb	Graupel (snow pellets) [kg/kg]	0(Meteorological)	GRLE
+417	ICSEV:1000 mb	Icing severity [-]	0(Meteorological)	ICSEV
+418	O3MR:1000 mb	Ozone Mixing Ratio [kg/kg]	0(Meteorological)	O3MR
+419	MSLET:mean sea level	MSLP (Eta model reduction) [Pa]	0(Meteorological)	MSLET
+420	HGT:1000 mb	Geopotential height [gpm]	0(Meteorological)	HGT
+421	PRES:surface	Pressure [Pa]	0(Meteorological)	PRES
+422	HGT:surface	Geopotential height [gpm]	0(Meteorological)	HGT
+423	TMP:surface	Temperature [C]	0(Meteorological)	TMP
+424	TSOIL:0-0.1 m below ground	Soil temperature [C]	2(Land_Surface)	TSOIL
+425	SOILW:0-0.1 m below ground	Volumetric Soil Moisture Content [Fraction]	2(Land_Surface)	SOILW
+426	TSOIL:0.1-0.4 m below ground	Soil temperature [C]	2(Land_Surface)	TSOIL
+427	SOILW:0.1-0.4 m below ground	Volumetric Soil Moisture Content [Fraction]	2(Land_Surface)	SOILW
+428	TSOIL:0.4-1 m below ground	Soil temperature [C]	2(Land_Surface)	TSOIL
+429	SOILW:0.4-1 m below ground	Volumetric Soil Moisture Content [Fraction]	2(Land_Surface)	SOILW
+430	TSOIL:1-2 m below ground	Soil temperature [C]	2(Land_Surface)	TSOIL
+431	SOILW:1-2 m below ground	Volumetric Soil Moisture Content [Fraction]	2(Land_Surface)	SOILW
+432	WEASD:surface	Water equivalent of accumulated snow depth [kg/(m^2)]	0(Meteorological)	WEASD
+433	SNOD:surface	Snow depth [m]	0(Meteorological)	SNOD
+434	PEVPR:surface	Potential Evaporation Rate [W/(m^2)]	0(Meteorological)	PEVPR
+435	TMP:2 m above ground	Temperature [C]	0(Meteorological)	TMP
+436	SPFH:2 m above ground	Specific humidity [kg/kg]	0(Meteorological)	SPFH
+437	DPT:2 m above ground	Dew point temperature [C]	0(Meteorological)	DPT
+438	RH:2 m above ground	Relative humidity [%]	0(Meteorological)	RH
+439	APTMP:2 m above ground	Apparent Temperature [C]	0(Meteorological)	APTMP
+440	TMAX:2 m above ground	Maximum temperature [C]	0(Meteorological)	TMAX
+441	TMIN:2 m above ground	Minimum temperature [C]	0(Meteorological)	TMIN
+442	UGRD:10 m above ground	u-component of wind [m/s]	0(Meteorological)	UGRD
+443	VGRD:10 m above ground	v-component of wind [m/s]	0(Meteorological)	VGRD
+444	ICEG:10 m above mean sea level	Ice growth rate [m/s]	10(Oceanographic_Products)	ICEG
+445	CPOFP:surface	Percent frozen precipitation [%]	0(Meteorological)	CPOFP
+446	CPRAT:surface	Convective precipitation rate [kg/(m^2*s)]	0(Meteorological)	CPRAT
+447	PRATE:surface	Precipitation rate [kg/(m^2 s)]	0(Meteorological)	PRATE
+448	CPRAT:surface	Convective Precipitation Rate [kg/(m^2*s)]	0(Meteorological)	CPRAT
+449	PRATE:surface	Precipitation rate [kg/(m^2 s)]	0(Meteorological)	PRATE
+450	APCP:surface	06 hr Total precipitation [kg/(m^2)]	0(Meteorological)	APCP06
+451	APCP:surface	24 hr Total precipitation [kg/(m^2)]	0(Meteorological)	APCP24
+452	ACPCP:surface	Convective precipitation [kg/(m^2)]	0(Meteorological)	ACPCP
+453	ACPCP:surface	Convective precipitation [kg/(m^2)]	0(Meteorological)	ACPCP
+454	WATR:surface	Water runoff [kg/(m^2)]	2(Land_Surface)	WATR
+455	CSNOW:surface	Categorical Snow [0=no; 1=yes]	0(Meteorological)	CSNOW
+456	CICEP:surface	Categorical Ice Pellets [0=no; 1=yes]	0(Meteorological)	CICEP
+457	CFRZR:surface	Categorical Freezing Rain [0=no; 1=yes]	0(Meteorological)	CFRZR
+458	CRAIN:surface	Categorical Rain [0=no; 1=yes]	0(Meteorological)	CRAIN
+459	CSNOW:surface	Categorical Snow [0=no; 1=yes]	0(Meteorological)	CSNOW
+460	CICEP:surface	Categorical Ice Pellets [0=no; 1=yes]	0(Meteorological)	CICEP
+461	CFRZR:surface	Categorical Freezing Rain [0=no; 1=yes]	0(Meteorological)	CFRZR
+462	CRAIN:surface	Categorical Rain [0=no; 1=yes]	0(Meteorological)	CRAIN
+463	LHTFL:surface	Latent heat net flux [W/(m^2)]	0(Meteorological)	LHTFL
+464	SHTFL:surface	Sensible heat net flux [W/(m^2)]	0(Meteorological)	SHTFL
+465	GFLUX:surface	Ground Heat Flux [W/(m^2)]	2(Land_Surface)	GFLUX
+466	UFLX:surface	Momentum flux; u component [N/(m^2)]	0(Meteorological)	UFLX
+467	VFLX:surface	Momentum flux; v component [N/(m^2)]	0(Meteorological)	VFLX
+468	U-GWD:surface	Zonal Flux of Gravity Wave Stress [N/(m^2)]	0(Meteorological)	U-GWD
+469	V-GWD:surface	Meridional Flux of Gravity Wave Stress [N/(m^2)]	0(Meteorological)	V-GWD
+470	WILT:surface	Wilting Point [Fraction]	2(Land_Surface)	WILT
+471	FLDCP:surface	Field Capacity [fraction]	2(Land_Surface)	FLDCP
+472	SUNSD:surface	SunShine duration [s]	0(Meteorological)	SUNSD
+473	LFTX:surface	Surface Lifted Index [C]	0(Meteorological)	LFTX
+474	CAPE:surface	Convective available potential energy [J/kg]	0(Meteorological)	CAPE
+475	CIN:surface	Convective inhibition [J/kg]	0(Meteorological)	CIN
+476	PWAT:entire atmosphere (considered as a single layer)	Precipitable water [kg/(m^2)]	0(Meteorological)	PWAT
+477	CWAT:entire atmosphere (considered as a single layer)	Cloud water [kg/(m^2)]	0(Meteorological)	CWAT
+478	RH:entire atmosphere (considered as a single layer)	Relative humidity [%]	0(Meteorological)	RH
+479	TOZNE:entire atmosphere (considered as a single layer)	Total ozone [Dobson]	0(Meteorological)	TOZNE
+480	TCDC:low cloud layer	Total cloud cover [%]	0(Meteorological)	TCDC
+481	TCDC:middle cloud layer	Total cloud cover [%]	0(Meteorological)	TCDC
+482	TCDC:high cloud layer	Total cloud cover [%]	0(Meteorological)	TCDC
+483	TCDC:entire atmosphere	Total cloud cover [%]	0(Meteorological)	TCDC
+484	PRES:convective cloud bottom level	Pressure [Pa]	0(Meteorological)	PRES
+485	PRES:low cloud bottom level	Pressure [Pa]	0(Meteorological)	PRES
+486	PRES:middle cloud bottom level	Pressure [Pa]	0(Meteorological)	PRES
+487	PRES:high cloud bottom level	Pressure [Pa]	0(Meteorological)	PRES
+488	PRES:convective cloud top level	Pressure [Pa]	0(Meteorological)	PRES
+489	PRES:low cloud top level	Pressure [Pa]	0(Meteorological)	PRES
+490	PRES:middle cloud top level	Pressure [Pa]	0(Meteorological)	PRES
+491	PRES:high cloud top level	Pressure [Pa]	0(Meteorological)	PRES
+492	TMP:low cloud top level	Temperature [C]	0(Meteorological)	TMP
+493	TMP:middle cloud top level	Temperature [C]	0(Meteorological)	TMP
+494	TMP:high cloud top level	Temperature [C]	0(Meteorological)	TMP
+495	TCDC:convective cloud layer	Total cloud cover [%]	0(Meteorological)	TCDC
+496	TCDC:boundary layer cloud layer	Total cloud cover [%]	0(Meteorological)	TCDC
+497	CWORK:entire atmosphere (considered as a single layer)	Cloud Work Function [J/kg]	0(Meteorological)	CWORK
+498	DSWRF:surface	Downward Short-Wave Rad. Flux [W/(m^2)]	0(Meteorological)	DSWRF
+499	DLWRF:surface	Downward Long-Wave Rad. Flux [W/(m^2)]	0(Meteorological)	DLWRF
+500	USWRF:surface	Upward Short-Wave Rad. Flux [W/(m^2)]	0(Meteorological)	USWRF
+501	ULWRF:surface	Upward Long-Wave Rad. Flux [W/(m^2)]	0(Meteorological)	ULWRF
+502	USWRF:top of atmosphere	Upward Short-Wave Rad. Flux [W/(m^2)]	0(Meteorological)	USWRF
+503	ULWRF:top of atmosphere	Upward Long-Wave Rad. Flux [W/(m^2)]	0(Meteorological)	ULWRF
+504	HLCY:3000-0 m above ground	Storm relative helicity [J/kg]	0(Meteorological)	HLCY
+505	USTM:6000-0 m above ground	U-Component Storm Motion [m/s]	0(Meteorological)	USTM
+506	VSTM:6000-0 m above ground	V-Component Storm Motion [m/s]	0(Meteorological)	VSTM
+507	PRES:tropopause	Pressure [Pa]	0(Meteorological)	PRES
+508	ICAHT:tropopause	ICAO Standard Atmosphere Reference Height [m]	0(Meteorological)	ICAHT
+509	HGT:tropopause	Geopotential height [gpm]	0(Meteorological)	HGT
+510	TMP:tropopause	Temperature [C]	0(Meteorological)	TMP
+511	UGRD:tropopause	u-component of wind [m/s]	0(Meteorological)	UGRD
+512	VGRD:tropopause	v-component of wind [m/s]	0(Meteorological)	VGRD
+513	VWSH:tropopause	Vertical speed sheer [1/s]	0(Meteorological)	VWSH
+514	PRES:max wind	Pressure [Pa]	0(Meteorological)	PRES
+515	ICAHT:max wind	ICAO Standard Atmosphere Reference Height [m]	0(Meteorological)	ICAHT
+516	HGT:max wind	Geopotential height [gpm]	0(Meteorological)	HGT
+517	UGRD:max wind	u-component of wind [m/s]	0(Meteorological)	UGRD
+518	VGRD:max wind	v-component of wind [m/s]	0(Meteorological)	VGRD
+519	TMP:max wind	Temperature [C]	0(Meteorological)	TMP
+520	UGRD:20 m above ground	u-component of wind [m/s]	0(Meteorological)	UGRD
+521	VGRD:20 m above ground	v-component of wind [m/s]	0(Meteorological)	VGRD
+522	UGRD:30 m above ground	u-component of wind [m/s]	0(Meteorological)	UGRD
+523	VGRD:30 m above ground	v-component of wind [m/s]	0(Meteorological)	VGRD
+524	UGRD:40 m above ground	u-component of wind [m/s]	0(Meteorological)	UGRD
+525	VGRD:40 m above ground	v-component of wind [m/s]	0(Meteorological)	VGRD
+526	UGRD:50 m above ground	u-component of wind [m/s]	0(Meteorological)	UGRD
+527	VGRD:50 m above ground	v-component of wind [m/s]	0(Meteorological)	VGRD
+528	TMP:80 m above ground	Temperature [C]	0(Meteorological)	TMP
+529	SPFH:80 m above ground	Specific humidity [kg/kg]	0(Meteorological)	SPFH
+530	PRES:80 m above ground	Pressure [Pa]	0(Meteorological)	PRES
+531	UGRD:80 m above ground	u-component of wind [m/s]	0(Meteorological)	UGRD
+532	VGRD:80 m above ground	v-component of wind [m/s]	0(Meteorological)	VGRD
+533	TMP:100 m above ground	Temperature [C]	0(Meteorological)	TMP
+534	UGRD:100 m above ground	u-component of wind [m/s]	0(Meteorological)	UGRD
+535	VGRD:100 m above ground	v-component of wind [m/s]	0(Meteorological)	VGRD
+536	TMP:1829 m above mean sea level	Temperature [C]	0(Meteorological)	TMP
+537	UGRD:1829 m above mean sea level	u-component of wind [m/s]	0(Meteorological)	UGRD
+538	VGRD:1829 m above mean sea level	v-component of wind [m/s]	0(Meteorological)	VGRD
+539	TMP:2743 m above mean sea level	Temperature [C]	0(Meteorological)	TMP
+540	UGRD:2743 m above mean sea level	u-component of wind [m/s]	0(Meteorological)	UGRD
+541	VGRD:2743 m above mean sea level	v-component of wind [m/s]	0(Meteorological)	VGRD
+542	TMP:3658 m above mean sea level	Temperature [C]	0(Meteorological)	TMP
+543	UGRD:3658 m above mean sea level	u-component of wind [m/s]	0(Meteorological)	UGRD
+544	VGRD:3658 m above mean sea level	v-component of wind [m/s]	0(Meteorological)	VGRD
+545	HGT:0C isotherm	Geopotential height [gpm]	0(Meteorological)	HGT
+546	RH:0C isotherm	Relative humidity [%]	0(Meteorological)	RH
+547	HGT:highest tropospheric freezing level	Geopotential height [gpm]	0(Meteorological)	HGT
+548	RH:highest tropospheric freezing level	Relative humidity [%]	0(Meteorological)	RH
+549	TMP:30-0 mb above ground	Temperature [C]	0(Meteorological)	TMP
+550	RH:30-0 mb above ground	Relative humidity [%]	0(Meteorological)	RH
+551	SPFH:30-0 mb above ground	Specific humidity [kg/kg]	0(Meteorological)	SPFH
+552	UGRD:30-0 mb above ground	u-component of wind [m/s]	0(Meteorological)	UGRD
+553	VGRD:30-0 mb above ground	v-component of wind [m/s]	0(Meteorological)	VGRD
+554	4LFTX:surface	Best (4 layer) Lifted Index [C]	0(Meteorological)	4LFTX
+555	CAPE:180-0 mb above ground	Convective available potential energy [J/kg]	0(Meteorological)	CAPE
+556	CIN:180-0 mb above ground	Convective inhibition [J/kg]	0(Meteorological)	CIN
+557	HPBL:surface	Planetary Boundary Layer Height [m]	0(Meteorological)	HPBL
+558	RH:0.33-1 sigma layer	Relative humidity [%]	0(Meteorological)	RH
+559	RH:0.44-1 sigma layer	Relative humidity [%]	0(Meteorological)	RH
+560	RH:0.72-0.94 sigma layer	Relative humidity [%]	0(Meteorological)	RH
+561	RH:0.44-0.72 sigma layer	Relative humidity [%]	0(Meteorological)	RH
+562	TMP:0.995 sigma level	Temperature [C]	0(Meteorological)	TMP
+563	POT:0.995 sigma level	Potential temperature [C]	0(Meteorological)	POT
+564	RH:0.995 sigma level	Relative humidity [%]	0(Meteorological)	RH
+565	UGRD:0.995 sigma level	u-component of wind [m/s]	0(Meteorological)	UGRD
+566	VGRD:0.995 sigma level	v-component of wind [m/s]	0(Meteorological)	VGRD
+567	VVEL:0.995 sigma level	Vertical velocity (pressure) [Pa/s]	0(Meteorological)	VVEL
+568	CAPE:255-0 mb above ground	Convective available potential energy [J/kg]	0(Meteorological)	CAPE
+569	CIN:255-0 mb above ground	Convective inhibition [J/kg]	0(Meteorological)	CIN
+570	PLPL:255-0 mb above ground	Pressure of level from which parcel was lifted [Pa]	0(Meteorological)	PLPL
+571	LAND:surface	Land cover (1=land; 2=sea) [Proportion]	2(Land_Surface)	LAND
+572	ICEC:surface	Ice cover [Proportion]	10(Oceanographic_Products)	ICEC
+573	ALBDO:surface	Albedo [%]	0(Meteorological)	ALBDO
+574	UGRD:PV=2e-06 (Km^2/kg/s) surface	u-component of wind [m/s]	0(Meteorological)	UGRD
+575	VGRD:PV=2e-06 (Km^2/kg/s) surface	v-component of wind [m/s]	0(Meteorological)	VGRD
+576	TMP:PV=2e-06 (Km^2/kg/s) surface	Temperature [C]	0(Meteorological)	TMP
+577	HGT:PV=2e-06 (Km^2/kg/s) surface	Geopotential height [gpm]	0(Meteorological)	HGT
+578	PRES:PV=2e-06 (Km^2/kg/s) surface	Pressure [Pa]	0(Meteorological)	PRES
+579	VWSH:PV=2e-06 (Km^2/kg/s) surface	Vertical speed sheer [1/s]	0(Meteorological)	VWSH
+580	UGRD:PV=-2e-06 (Km^2/kg/s) surface	u-component of wind [m/s]	0(Meteorological)	UGRD
+581	VGRD:PV=-2e-06 (Km^2/kg/s) surface	v-component of wind [m/s]	0(Meteorological)	VGRD
+582	TMP:PV=-2e-06 (Km^2/kg/s) surface	Temperature [C]	0(Meteorological)	TMP
+583	HGT:PV=-2e-06 (Km^2/kg/s) surface	Geopotential height [gpm]	0(Meteorological)	HGT
+584	PRES:PV=-2e-06 (Km^2/kg/s) surface	Pressure [Pa]	0(Meteorological)	PRES
+585	VWSH:PV=-2e-06 (Km^2/kg/s) surface	Vertical speed sheer [1/s]	0(Meteorological)	VWSH
+586	PRMSL:mean sea level	Pressure reduced to MSL [Pa]	0(Meteorological)	PRMSL
+587	5WAVH:500 mb	5-Wave Geopotential Height [gpm]	0(Meteorological)	5WAVH
+588	LANDN:surface	Land-sea coverage (nearest neighbor) [0=sea; 1=land]	2(Land_Surface)	LANDN

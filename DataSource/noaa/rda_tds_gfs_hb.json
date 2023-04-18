@@ -1,0 +1,28 @@
+{
+    "gridLonLat": {
+        "north": 43,
+        "west": 113,
+        "south": 36,
+        "east": 120
+    },
+    "vars": [
+        ["Pressure_surface","气压",200000, 50000, 7],
+        ["Sunshine_Duration_surface","光照",40000, 0.001, 1542],
+        ["Precipitable_water_entire_atmosphere_single_layer","降水",200, 0.001, 86],
+        ["Temperature_surface","温度",400, 200, 2],
+        ["Relative_humidity_entire_atmosphere_single_layer","相对湿度",101,0.001, 3],
+        ["u-component_of_wind_sigma","u风速",100,-100, 9991],
+        ["v-component_of_wind_sigma","v风速",100, -100, 9992],
+        ["Land_cover_0__sea_1__land_surface","陆地",1, 0, 9993]
+    ],
+    "~vars": [],
+    "location":"河北",
+    "startDate":"2021-01-01",
+    "endDate":"2022-10-10",
+    "pointSize":0.25,
+    "maxForeHour":172,
+    "# maxForeHour":"24*7+4  # 从0到172小时，即一星期，加4是因为前面第一个小时是20点，还只是今天，明天凌晨要4小时后",
+    "interHours":3,
+    "model_cycle_runtimes":"12",
+    "timeZone":8
+}

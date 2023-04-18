@@ -1,0 +1,82 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Prepare_Data",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {"PYDEVD_WARN_SLOW_RESOLVE_TIMEOUT": "2"},
+            "args": [
+                "--data_dir","/datapool/shared/AirNet",
+                "--gfs_root_dir","/datapool/shared/ucar",
+                "--epa_dir","/datapool/shared/epa",
+                "--dm_ps_dir","/datapool/shared/dm_ps",
+                "--vs_dir","/datapool/shared/vs",
+                "--production_dir","/datapool/shared/production",
+
+                "--source_type","guoKong",
+                "--weather_source","gfs_sx",
+                "--start","2021-01-01",
+                "--end","2022-11-11",
+                "--test_date","2022-07-01",
+            ]
+        },
+        {
+            "name": "Air",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--data_dir","/datapool/shared/AirNet",
+                 "--model_layers","32,64,128",
+                 "--epochs","3",
+                "--predict_timesteps","120,168",
+                "--base_timesteps","24",
+                "--audit_timesteps","1",
+                "--batch_size","12",
+                "--input_predays","7",
+                "--channel_index","0",
+                "--vs_dir","/datapool/shared/vs",
+                "--param_groud_id","350",
+                "--db_config","~/.config/mon-db.json",
+                "--db","mondb",
+
+                "--source_type","guoKong",
+                "--weather_source","gfs_sx",
+                "--model_dir","sx_model_350",
+                // "--model_dir","model349",
+                "--train_date","2021-04-01",
+                "--test_date","2022-07-01",
+                "--end_date","2022-10-01",
+
+            ]
+        },
+        {
+            "name": "Production",
+            "type": "python",
+            "request": "launch",
+            // "program": "${fileDirname}/production.py",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["--data_dir","/datapool/shared/production",
+                "--source_type","guoKong",
+                "--weather_source","gfs_sx",
+                "--start_date","2022-10-01",
+                "--db_config","~/.config/mon-db.json",
+                "--db","mondb",
+                "--model_dir","sx_model_350",
+                "--param_groud_id","350",
+                "--lookback_days","10", // 192/24+2+..
+            ]
+        },
+
+    ]
+}

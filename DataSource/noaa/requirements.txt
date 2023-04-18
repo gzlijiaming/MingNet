@@ -1,0 +1,6 @@
+# conda install gdal
+# conda install cartopy
+# pydap
+requests
+conda install -c conda-forge pydap
+

@@ -1,0 +1,27 @@
+torch
+numpy
+scipy
+argparse
+psycopg[binary]
+tqdm
+pillow
+matplotlib
+pykrige
+ray
+ray[default]
+tensorboard
+torch-tb-profiler
+metpy
+netCDF4
+pydap
+scikit-learn
+chinesecalendar
+holidays>=0.16
+geopy
+openpyxl
+cartopy
+prophet
+# conda install pystan ?
+# conda install prophet ?
+# conda install cartopy ?
+# conda install -c conda-forge pydap ?

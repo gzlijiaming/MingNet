@@ -1,0 +1,8 @@
+{
+    "python.analysis.extraPaths": [
+        "./DataPrepare",
+        "./DataSource/vs",
+        "./DataSource/mon",
+        "./DataSource/economy",
+    ],
+}

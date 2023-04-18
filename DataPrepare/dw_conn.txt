@@ -1,0 +1,2 @@
+postgsresql
+db: dw（数仓）dm_env（监测数据集市） dm_ps(监管数据集市）
