@@ -32,7 +32,7 @@
 - [Acknowledgements](#acknowledgements)
 
 # 简介
-* MingNet 是用于制作生环保类神经网络模型的工具
+* MingNet 是用于制作环保类AI模型的工具
 
 | 工具  | 描述  |
 |---|---|
