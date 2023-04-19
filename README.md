@@ -48,8 +48,17 @@
 |LSTM|1天|3080GPU|1分钟|普通PC|历史数据|
 |Prophet|无|无|12小时|普通PC|历史数据|
 
-* 本工具只是生成模型的工具，**不包含**模型和数据（原始数据及权重数据）。
-* 下载代码后请按照“数据准备-训练测试-常规运行”步骤使用本工具基于本地数据训练和使用模型。
+* 本工具只是生成模型的工具，**不包含**模型和数据（原始数据及权重数据）。测试数据（监测数据为模拟数据,天气预测数据来自ucar.org）airnet_test_data.tgz 可以从网盘获取：
+https://cloud.189.cn/web/share?code=juIZNneUjeAf  （访问码：9gm7），下载后可以用下面的命令解压：
+```bash
+cd /datapool/shared
+tar -xzvf <path of file>/airnet_test_data.tgz
+```
+* 下载代码：
+```bash
+git clone https://github.com/gzlijiaming/MingNet.git
+```
+* 之后请按照“数据准备--训练模型--测试模型--常规运行”步骤使用本工具基于本地数据训练和使用模型。
 # 运行环境
 ## PC
 * 1~n 台（训练时建议n台并行，常规运行时只需1台）
