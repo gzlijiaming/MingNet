@@ -337,7 +337,7 @@ crontab -e
 # 更新天气预报数据
 2 * * * * <code dir>/DataSource/noaa/fill_missing.sh
 # 更新历史数据后，马上做预测
-35 * * * * <code dir>/DataSource/gd/fill_missing.sh&&<code dir>/AirNet6/fill_missing.sh
+35 * * * * <code dir>/DataSource/mon/fill_missing.sh&&<code dir>/AirNet6/fill_missing.sh
 ```
 * 第一个时程主要是每周更新中国假日数据，依赖于[chinesecalendar](https://pypi.org/project/chinesecalendar/)模块的更新
 * 第二个时程在每个小时的第2分，从[NOAA](https://nomads.ncep.noaa.gov/dods/gfs_0p25_1hr)获取一次最新的天气预报数据。
