@@ -32,7 +32,7 @@
 - [Acknowledgements](#acknowledgements)
 
 # 简介
-* MingNet 是用于制作环保类AI模型的工具
+* MingNet 是用于制作空气质量预测AI模型的工具，目前迭代到第6个版本。
 
 | 工具  | 描述  |
 |---|---|
